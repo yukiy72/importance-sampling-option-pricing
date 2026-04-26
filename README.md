@@ -1,4 +1,4 @@
-# importance-sampling-option-pricing
+# Option Pricing using Importance Sampling (Monte Carlo Simulation)
 
 The content of this notebook is based on Chapter 4 of the book "Monte Carlo Methods in Financial Engineering" by Paul Glasserman. <br>
 
