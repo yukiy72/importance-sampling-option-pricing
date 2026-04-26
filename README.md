@@ -31,6 +31,7 @@ where:
 - Up-and-in European Call Option
 - Payoff: $max(S(T) - K, 0) 1_{\{max_{1 \le i \le m} S(t_i) > b\}}$
   Here, $b$ is a barrier
+- **High barrier, making knock-ins less likely**
 
 ---
 
@@ -69,8 +70,9 @@ where:
 
 ## Results
 
-Stratified sampling shows:
-- Lower variance (i.e., narrower confidence interval) compared to standard Monte Carlo
+Importance sampling shows:
+- More frequent knock-ins
+- Lower variance (i.e., a narrower confidence interval) compared to standard Monte Carlo
 
 ---
 
